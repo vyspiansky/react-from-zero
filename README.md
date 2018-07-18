@@ -25,9 +25,9 @@
 ## Уроки
 
 [Урок 0 - Елементи об'єкту](https://github.com/vyspiansky/react-from-zero/blob/master/00-object-elements.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/c390dadd/00-object-elements.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/d1c24770/00-object-elements.html)
 
-[Урок 1 - Element Factory](https://github.com/kay-is/react-from-zero/blob/master/01-element-factory.html) -
+[Урок 1 - Фабрика елементу](https://github.com/vyspiansky/react-from-zero/blob/master/01-element-factory.html) -
 [Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/01-element-factory.html)
 
 [Урок 2 - JSX](https://github.com/kay-is/react-from-zero/blob/master/02-jsx.html) -

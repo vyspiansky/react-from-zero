@@ -1,6 +1,6 @@
 <!doctype html>
 
-<title>01 Element Factory - React From Zero</title>
+<title>01 Фабрика елементу - React «з нуля»</title>
 
 <script src="https://unpkg.com/react@16.4.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16.4.0/umd/react-dom.development.js"></script>
@@ -8,9 +8,9 @@
 <div id="app"></div>
 
 <script>
-  // React.createElement() needs type, properties, children.
-  // This is less verbose than using plain object literals,
-  // it hides the $$type/Symbol and ref mentioned in lesson 0
+  // React.createElement() потребує типу (1-ий параметр), властивостей (2-ий), дочірніх елементів (3-ій).
+  // Такий запис є більш компактним, ніж використання звичайних літералів об'єкту,
+  // приховує $$type/Symbol і ref, які були згадані в уроці 0
   var reactElement = React.createElement("h1", {
 
     className: "abc",
@@ -21,11 +21,10 @@
 
     onClick: function () { alert("click") },
 
-  }, "Hello, world!")
+  }, "Привіт, світе!")
 
-
-  // The second argument is the property object and has to be null if empty
-  var anotherElement = React.createElement("p", null, "A nice text paragraph.")
+  // Другий аргумент - це об'єкт властивостей. Має бути рівним null, щоб бути порожнім
+  var anotherElement = React.createElement("p", null, "Якийсь довільний текст абзацу.")
 
   var renderTarget = document.getElementById("app")
 
