@@ -30,8 +30,8 @@
 [Урок 1 - Фабрика елементу](https://github.com/vyspiansky/react-from-zero/blob/master/01-element-factory.html) -
 [Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/58071245/01-element-factory.html)
 
-[Урок 2 - JSX](https://github.com/kay-is/react-from-zero/blob/master/02-jsx.html) -
-[Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/02-jsx.html)
+[Урок 2 - JSX](https://github.com/vyspiansky/react-from-zero/blob/master/02-jsx.html) -
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/58071245/02-jsx.html)
 
 [Урок 3 - Nested Elements](https://github.com/kay-is/react-from-zero/blob/master/03-nested-elements.html) -
 [Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/03-nested-elements.html)
