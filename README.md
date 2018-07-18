@@ -19,6 +19,8 @@
   </li>
 </ul>
 
+- [<img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/England.png" alt="England" style="max-width:100%" align="middle"> **English**](https://github.com/kay-is/react-from-zero)
+
 - [![England](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/England.png) **English**](https://github.com/kay-is/react-from-zero)
 
 ## Переклади
