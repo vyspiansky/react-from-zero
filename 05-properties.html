@@ -1,6 +1,6 @@
 <!doctype html>
 
-<title>05 Properties - React From Zero</title>
+<title>05 Властивості - React «з нуля»</title>
 
 <script src="https://unpkg.com/react@16.4.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16.4.0/umd/react-dom.development.js"></script>
@@ -9,30 +9,30 @@
 <div id="app"></div>
 
 <script type="text/babel">
-// Components, like elements, can use properties, too
+// Компоненти, як і елементи, також можуть використовувати властивості
 function MyComponent(props) {
   return (
     <div className={props.className}>
-      <h1>Hello</h1>
+      <h1>Привіт,</h1>
       <h2>{props.customData}</h2>
     </div>
   )
 }
 
-var reactElement = <MyComponent className="abc" customData="world"/>
+var reactElement = <MyComponent className="abc" customData="світе!"/>
 
-// Which also works with an object and the spread (...) operator
+// Вони також працюють з об'єктом і з оператором розпакування (оператор «spread», ...)
 var props = {
   className: "abc",
-  customData: "world",
+  customData: "світе!",
 }
 
 reactElement = <MyComponent {...props}/>
 
-// This allows components with dynamic content
-var planets = ["earth", "mars", "venus"]
+// Це дозволяє створити компоненти з динамічним вмістом
+var planets = ["Земля", "Марс", "Венера"]
 
-// If an array is used as a "child node" each child needs a unique key-property
+// Якщо масив використовується як «дочірній вузол», то кожній дитині потрібна унікальна key-властивість
 var elements = planets.map(function(planet, index) {
   return <MyComponent className="myClass" customData={planet} key={index}/>
 })
