@@ -42,8 +42,8 @@
 [Урок 5 - Властивості](https://github.com/vyspiansky/react-from-zero/blob/master/05-properties.html) -
 [Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6e37c27/05-properties.html)
 
-[Урок 6 - Property Types](https://github.com/kay-is/react-from-zero/blob/master/06-property-types.html) -
-[Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/06-property-types.html)
+[Урок 6 - Типи властивостей](https://github.com/vyspiansky/react-from-zero/blob/master/06-property-types.html) -
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6e37c27/06-property-types.html)
 
 [Урок 7 - Property Example](https://github.com/kay-is/react-from-zero/blob/master/07-property-example.html) -
 [Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/07-property-example.html)

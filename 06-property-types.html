@@ -1,50 +1,50 @@
 <!doctype html>
 
-<title>06 Property Types - React From Zero</title>
+<title>06 Типи властивостей - React «з нуля»</title>
 
 <script src="https://unpkg.com/react@16.4.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16.4.0/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
 <script src="https://unpkg.com/prop-types@15.6.1/prop-types.js">
-// PropTypes were removed from React 16 and are now their own package
+// PropTypes було вилучено з React 16 і тепер це окремий пакет
 </script>
 
 <div id="app"></div>
 
 <script type="text/babel">
-// Components get created to encapsulate stuff that should be together in one
-// place and for reuse.
-// Reuse requires the user of the component to supply the correct properties so
-// we can define a type of each property and set defaults
+// Компоненти створюються для інкапсуляції речей, які повинні бути разом в одному
+// місце і для повторного використання.
+// Повторне використання вимагає, щоб користувач компоненту подавав правильні властивості
+// Таким чином ми можемо визначити тип кожної властивості і встановити значення за замовчуванням
 
 function MyComponent(props) {
   return (
     <div className={props.className}>
-      <h1>Hello</h1>
+      <h1>Привіт,</h1>
       <h2>{props.customData}</h2>
     </div>
   )
 }
 
-// Add the propTypes (function-)property to the component function
-// to let it validate its (element-)properties
+// Додамо властивість propTypes до функції компоненту
+// щоб він перевіряв властивості
 MyComponent.propTypes = {
-  // React supplies us with a bunch of types, like string
+  // React постачає нас різними типами, як-от «рядок» (string)
   customData: PropTypes.string,
 }
 
-// Add defaultProps (function-)property to set the defaults
-// if nothing was provided by the user
+// Додамо властивість defaultProps, щоб встановити значення за замовчуванням
+// якщо нічого не було надано користувачем
 MyComponent.defaultProps = {
   customData: "default",
   className: "default-class",
 }
 
-// This will show a warning in the console, because customData should be a string
+// У консолі з'явиться попередження, тому що customData має бути рядком
 var reactElement = <MyComponent customData={123}/>
 
-// This will use the defaults
+// Тут будуть використовуватися значення за замовчуванням
 reactElement = <MyComponent/>
 
 var renderTarget = document.getElementById("app")
