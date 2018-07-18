@@ -1,6 +1,6 @@
 <!doctype html>
 
-<title>09 Component Classes - React From Zero</title>
+<title>09 Класи компоненту - React «з нуля»</title>
 
 <script src="https://unpkg.com/react@16.4.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16.4.0/umd/react-dom.development.js"></script>
@@ -8,76 +8,74 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
 <script src="https://unpkg.com/create-react-class@15.6.3/create-react-class.js">
-// React.createClass was removed from React 16 and is now its own package
+// React.createClass було вилучено з React 16 і тепер це окремий пакет
 </script>
 
 <div id="app"></div>
 
 <script type="text/babel">
-// Often a component needs to maintain some internal state
-// for example if there is an interaction involved
-// in this case a component function is not sufficient
-// the component function can only have properties and no state
-// we need a component class with a render function
+// Часто компонент повинен підтримувати деякий внутрішній стан
+// наприклад, якщо є якась взаємодія.
+// У цьому випадку функції компоненту є не достатньо -
+// функція компоненту може мати лише властивості, але без стану.
+// Тому нам потрібен клас компоненту з функцією рендерингу
 var MyComponent = createReactClass({
 
-  // used for type-checking of the properties
-  // same as with the component function
+  // Використовується для перевірки типу властивостей
+  // так само, як і з функцією компоненту
   propTypes: {
     color: PropTypes.string,
   },
 
-  // this method sets default values for missing properties
-  // it will be called by React
-  // before the components gets mounted into the DOM
+  // Цей метод встановлює значення за замовчуванням для відсутніх властивостей
+  // React викличе його перед тим, як компоненти будуть «змонтовані» (англ. mount) в DOM
   getDefaultProps: function() {
     return {color: "green"}
   },
 
-  // this method sets the initial state for the component
-  // it will be called by React
-  // before the components gets mounted into the DOM
-  // if this method is missing, this.state will be undefined
+  // Цей метод задає початковий стан для компоненту
+  // React викличе його перед тим, як компоненти будуть «змонтовані» в DOM
+  // Якщо цього методу немає, this.state буде невизначеним (undefined)
   getInitialState: function() {
-    // The state can be any JavaScript value, often it is an object
+    // Стан може бути будь-яким JavaScript значенням, часто це об'єкт
     return {times: 0}
   },
 
-  // this method handles all the clicks on the <span> element
+  // Цей метод обробляє всі кліки на елементі <span>
   handleClick: function() {
-    // setState() can be called with an object that contains the new state
-    // normally this triggers a call of render(), but React can batch multiple
-    // calls and defer the render() call (make the call asynchronous)
-    // To prevent this, setState can take a callback instead
+    // setState() можна викликати з об'єктом, який містить новий стан.
+    // Зазвичай це призводить до виклику render(), але React може згрупувати декілька
+    // викликів та відкласти render() (зробити асинхронний виклик)
 
-    // This can lead to unexpected behaviour, if we rely on this.state or
-    // this.props for our calculations
+    // Це може призвести до несподіваної поведінки, якщо ми покладаємось на
+    // this.state або this.props для наших розрахунків
     // this.setState({times: this.state.times + 1})
 
-    // The callback version doesn't have this problem
-    // The callback gets the right state and props at time of the update
+    // Щоб запобігти цьому, setState може також прийняти callback-функцію
+    // (функція зворотного виклику).
+
+    // Версія з callback-функцією не має цієї проблеми і отримує правильний
+    // state і props під час оновлення
     this.setState(function(prevState, props) {
       return {times: prevState.times + 1}
     })
 
   },
 
-  // this method will be called by React
-  // after the component got mounted into the DOM
-  // also every time this.setState() was called
-  // it's like the component function from before
-  // but without a props argument
+  // React викличе цей метод після того, як компонент буде «змонтовано»
+  // в DOM, а також кожен раз, коли this.setState() було викликано
+  // Це як функція компоненту з минулих уроків, але без props аргументу
   render: function() {
 
-    // using the prop given by the creator of this component
-    // properties are now in this.props instead of the props argument
+    // Використання властивостей, які задано для цього компоненту.
+    // Властивості тепер є в this.props замість props аргументу
     var style = {color: this.props.color}
 
-    // returning an element with a click-handler and the props and
-    // state values. state is stored in this.state
+    // Повернення елементу з click-обробником, props і state значеннями.
+    // Стан зберігається в this.state
     return (
       <span onClick={this.handleClick} style={style}>
-        Clicked {this.state.times} times
+        Натиснуто {this.state.times} раз(ів)
       </span>
     )
 
@@ -85,10 +83,11 @@ var MyComponent = createReactClass({
 
 })
 
-// creating some instances of the interactive stateful component class
-// one with default color
-// Everything works exactly like with the simpler component functions
-// The interface has not changed for the user of this component
+// Створення декількох екземплярів інтерактивного класу компоненту,
+// що зберігають стан.
+// Останній йде з кольором за замовчуванням
+// Все працює так само, як з більш простими функціями компоненту.
+// Для користувача цього компоненту інтерфейс не змінився
 var reactElement =
   <div>
     <MyComponent color="red"/>
