@@ -1,6 +1,6 @@
 <!doctype html>
 
-<title>08 Nested Components - React From Zero</title>
+<title>08 Вкладені компоненти - React «з нуля»</title>
 
 <script src="https://unpkg.com/react@16.4.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16.4.0/umd/react-dom.development.js"></script>
@@ -9,32 +9,32 @@
 <div id="app"></div>
 
 <script type="text/babel">
-// Components, like elements, can be nested
-// for this, the children property is used inside the component
+// Компоненти, як і елементи, можуть бути вкладені
+// для цього використовується властивість children всередині компонента
 
-// This component just wraps its children in an <li> element
+// Компонент нижче просто «огортає» своїх дітей <li> елементом
 function Item(props) {
   return <li>{props.children}</li>
 }
 
-// This component wraps its children into an <ul> element
+// А цей компонент «огортає» своїх дітей <ul> елементом
 function List(props) {
   return <ul>{props.children}</ul>
 }
 
-// If the <List> is created without children it gets a default child
+// Якщо <List> створюється без дітей, то він отримує дитину за замовчуванням
 List.defaultProps = {
-  children: <Item>Empty</Item>
+  children: <Item>Порожній</Item>
 }
 
-// now we render two <List>s, without and with Items
+// тепер ми рендеримо («відмальовуємо») два <List>'и без і з Item'ами
 var reactElement =
   <div>
     <List/>
     <List>
-      <Item>First</Item>
-      <Item>Second</Item>
-      <Item>Third</Item>
+      <Item>Перший</Item>
+      <Item>Другий</Item>
+      <Item>Третій</Item>
     </List>
   </div>
 

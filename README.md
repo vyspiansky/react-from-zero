@@ -48,8 +48,8 @@
 [Урок 7 - Приклад властивості](https://github.com/vyspiansky/react-from-zero/blob/master/07-property-example.html) -
 [Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/b31878c2/07-property-example.html)
 
-[Урок 8 - Nested Components](https://github.com/kay-is/react-from-zero/blob/master/08-nested-components.html) -
-[Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/08-nested-components.html)
+[Урок 8 - Вкладені компоненти](https://github.com/vyspiansky/react-from-zero/blob/master/08-nested-components.html) -
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/b31878c2/08-nested-components.html)
 
 [Урок 9 - Component Classes](https://github.com/kay-is/react-from-zero/blob/master/09-component-classes.html) -
 [Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/09-component-classes.html)
