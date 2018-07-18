@@ -10,6 +10,15 @@
 
 ## Оригінал
 
+<ul>
+  <li>
+    <a href="https://github.com/kay-is/react-from-zero">
+      <img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/England.png" alt="England" style="max-width:100%; vertical-align: middle">
+      <strong>English</strong>
+    </a>
+  </li>
+</ul>
+
 - [![England](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/England.png) **English**](https://github.com/kay-is/react-from-zero)
 
 ## Переклади
@@ -54,8 +63,8 @@
 [Урок 9 - Класи компоненту](https://github.com/vyspiansky/react-from-zero/blob/master/09-component-classes.html) -
 [Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/09-component-classes.html)
 
-[Урок 10 - Example App](https://github.com/kay-is/react-from-zero/blob/master/10-example-app.html) -
-[Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/10-example-app.html)
+[Урок 10 - Приклад додатку](https://github.com/vyspiansky/react-from-zero/blob/master/10-example-app.html) -
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/10-example-app.html)
 
 [Урок 11 - Lifecycle Methods](https://github.com/kay-is/react-from-zero/blob/master/11-lifecycle-methods.html) -
 [Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/11-lifecycle-methods.html)
