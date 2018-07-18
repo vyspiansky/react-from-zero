@@ -25,22 +25,22 @@
 ## Уроки
 
 [Урок 0 - Елементи об'єкту](https://github.com/vyspiansky/react-from-zero/blob/master/00-object-elements.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/58071245/00-object-elements.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6e37c27/00-object-elements.html)
 
 [Урок 1 - Фабрика елементу](https://github.com/vyspiansky/react-from-zero/blob/master/01-element-factory.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/58071245/01-element-factory.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6e37c27/01-element-factory.html)
 
 [Урок 2 - JSX](https://github.com/vyspiansky/react-from-zero/blob/master/02-jsx.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/58071245/02-jsx.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6e37c27/02-jsx.html)
 
 [Урок 3 - Вкладені елементи](https://github.com/vyspiansky/react-from-zero/blob/master/03-nested-elements.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/58071245/03-nested-elements.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6e37c27/03-nested-elements.html)
 
 [Урок 4 - Компоненти](https://github.com/vyspiansky/react-from-zero/blob/master/04-components.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/58071245/04-components.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6e37c27/04-components.html)
 
 [Урок 5 - Властивості](https://github.com/vyspiansky/react-from-zero/blob/master/05-properties.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/58071245/05-properties.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6e37c27/05-properties.html)
 
 [Урок 6 - Property Types](https://github.com/kay-is/react-from-zero/blob/master/06-property-types.html) -
 [Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/06-property-types.html)
