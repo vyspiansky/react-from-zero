@@ -14,13 +14,13 @@
 
 ## Переклади
 
-- [![China](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **中文 / Chinese**](https://github.com/chinanf-boy/react-from-zero)
+- [<img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png" alt="China" style="max-width:100%" align="top"> **中文 / Chinese**](https://github.com/chinanf-boy/react-from-zero)
 
-- [![Brazil](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png) **Brazilian Portuguese**](https://github.com/andre-motta/react-from-zero)
+- [<img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png" alt="Brazil" style="max-width:100%" align="top"> **Brazilian Portuguese**](https://github.com/andre-motta/react-from-zero)
 
-- [![Russia](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png) **Russian**](https://github.com/lex111/react-from-zero)
+- [<img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png" alt="Russia" style="max-width:100%" align="top"> **Russian**](https://github.com/lex111/react-from-zero)
 
-- [![Spain](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Spain.png) **Español / Spanish**](https://github.com/sejas/react-desde-cero)
+- [<img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Spain.png" alt="Spain" style="max-width:100%" align="top"> **Español / Spanish**](https://github.com/sejas/react-desde-cero)
 
 ## Уроки
 
