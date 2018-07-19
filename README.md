@@ -57,8 +57,8 @@
 [Урок 10 - Приклад додатку](https://github.com/vyspiansky/react-from-zero/blob/master/10-example-app.html) -
 [Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/10-example-app.html)
 
-[Урок 11 - Lifecycle Methods](https://github.com/kay-is/react-from-zero/blob/master/11-lifecycle-methods.html) -
-[Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/11-lifecycle-methods.html)
+[Урок 11 - Життєвий цикл методів](https://github.com/vyspiansky/react-from-zero/blob/master/11-lifecycle-methods.html) -
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/11-lifecycle-methods.html)
 
 [Урок 12 - Component refactor](https://github.com/kay-is/react-from-zero/blob/master/12-component-refactor.html) -
 [Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/12-component-refactor.html)
