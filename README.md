@@ -25,37 +25,37 @@
 ## Уроки
 
 [Урок 0 - Елементи об'єкту](https://github.com/vyspiansky/react-from-zero/blob/master/00-object-elements.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/00-object-elements.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/00-object-elements.html)
 
 [Урок 1 - Фабрика елементу](https://github.com/vyspiansky/react-from-zero/blob/master/01-element-factory.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/01-element-factory.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/01-element-factory.html)
 
 [Урок 2 - JSX](https://github.com/vyspiansky/react-from-zero/blob/master/02-jsx.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/02-jsx.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/02-jsx.html)
 
 [Урок 3 - Вкладені елементи](https://github.com/vyspiansky/react-from-zero/blob/master/03-nested-elements.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/03-nested-elements.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/03-nested-elements.html)
 
 [Урок 4 - Компоненти](https://github.com/vyspiansky/react-from-zero/blob/master/04-components.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/04-components.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/04-components.html)
 
 [Урок 5 - Властивості](https://github.com/vyspiansky/react-from-zero/blob/master/05-properties.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/05-properties.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/05-properties.html)
 
 [Урок 6 - Типи властивостей](https://github.com/vyspiansky/react-from-zero/blob/master/06-property-types.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/06-property-types.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/06-property-types.html)
 
 [Урок 7 - Приклад властивості](https://github.com/vyspiansky/react-from-zero/blob/master/07-property-example.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/07-property-example.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/07-property-example.html)
 
 [Урок 8 - Вкладені компоненти](https://github.com/vyspiansky/react-from-zero/blob/master/08-nested-components.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/08-nested-components.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/08-nested-components.html)
 
 [Урок 9 - Класи компоненту](https://github.com/vyspiansky/react-from-zero/blob/master/09-component-classes.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/09-component-classes.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/09-component-classes.html)
 
 [Урок 10 - Приклад додатку](https://github.com/vyspiansky/react-from-zero/blob/master/10-example-app.html) -
-[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/6fc1e23/10-example-app.html)
+[Попередній перегляд](https://cdn.rawgit.com/vyspiansky/react-from-zero/f4eef0d/10-example-app.html)
 
 [Урок 11 - Lifecycle Methods](https://github.com/kay-is/react-from-zero/blob/master/11-lifecycle-methods.html) -
 [Попередній перегляд](https://cdn.rawgit.com/kay-is/react-from-zero/b31878c2/11-lifecycle-methods.html)
